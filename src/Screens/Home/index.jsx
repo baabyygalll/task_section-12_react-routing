@@ -35,7 +35,7 @@ const Home = () => {
             <Navbar />
             <h1> todos </h1>
             <Form  createTodo={createTodo} />
-            <TodoList dataTodos={data} />
+            <TodoList dataTodos={data} setDataTodos={setData} />
           </div>
           </div>
         </section>
