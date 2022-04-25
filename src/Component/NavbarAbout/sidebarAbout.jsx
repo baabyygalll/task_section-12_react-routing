@@ -4,7 +4,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
-export const sidebarData = [
+export const sidebarAbout = [
   {
     title: "Home",
     path: "/",
@@ -13,9 +13,15 @@ export const sidebarData = [
   },
 
   {
-    title: "About",
-    path: "/about",
-    icon: <AiIcons.AiFillQuestionCircle />,
+    title: "About App",
+    path: "/about/about-app",
+    icon: <AiIcons.AiTwotoneAppstore />,
+    cName: "nav-text",
+  },
+  {
+    title: "About Author",
+    path: "/about/about-author",
+    icon: <AiIcons.AiOutlineIdcard />,
     cName: "nav-text",
   },
 ];

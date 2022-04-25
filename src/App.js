@@ -19,10 +19,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<AboutApp />} />
-      <Route path="/about2" element={<AboutAuthor />} />
+      <Route path="/about/about-app" element={<AboutApp />} />
+      <Route path="/about/about-author" element={<AboutAuthor />} />
       <Route path="*" element={<PageNotFound />} />
-      
-    
     </Routes>
   );
 }

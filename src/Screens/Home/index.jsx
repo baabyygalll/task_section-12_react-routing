@@ -3,6 +3,8 @@ import React, {useState} from "react";
 import Form from "../../Component/Form";
 import Navbar from "../../Component/Navbar";
 import TodoList from "../../Component/TodoList";
+// CSS
+import "./style.module.css"
 
 const Home = () => {
 
@@ -33,7 +35,7 @@ const Home = () => {
           <div className="container_wrapper">
           <div className="form_container">
             <Navbar />
-            <h1> todos </h1>
+            <h1 style={{textAlign: "center", marginLeft: "-20px"}}> todos </h1>
             <Form  createTodo={createTodo} />
             <TodoList dataTodos={data} setDataTodos={setData} />
           </div>
